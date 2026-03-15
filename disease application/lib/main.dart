@@ -1256,35 +1256,35 @@ class _PoseDetailPageState extends State<PoseDetailPage>
     final key = poseName.toLowerCase();
     if (key.contains('tadasana')) {
       // Short Tadasana / mountain pose demo
-      return 'https://www.youtube.com/watch?v=4PkrGBcQZrM';
+      return 'https://youtube.com/shorts/Xof9Fv7gkqw?si=FO2TSvzGjdlDYCJ1';
     }
     if (key.contains('vrikshasana') || key.contains('tree')) {
-      return 'https://www.youtube.com/watch?v=HVYS5A5d6x8';
+      return 'https://youtube.com/shorts/pfF98CIsd0E?si=L8-JQ10nXt9KoULo';
     }
     if (key.contains('bhujangasana') || key.contains('cobra')) {
-      return 'https://www.youtube.com/watch?v=JDcdhTuycOI';
+      return 'https://youtube.com/shorts/qK7sEV08F_E?si=Wo5QwcsMa7RWP8NF';
     }
     if (key.contains('shavasana')) {
       // Dedicated short Shavasana / relaxation demo
-      return 'https://www.youtube.com/watch?v=5bvVEQTWQv8';
+      return 'https://youtube.com/shorts/9ZsTLblha9o?si=m-5qtAcDVfwDD1AL';
     }
     if (key.contains('cat–cow') || key.contains('cat-cow')) {
-      return 'https://www.youtube.com/watch?v=kqnua4rHVVA';
+      return 'https://youtube.com/shorts/2of247Kt0tU?si=tbKFI7SgRgQmGoow';
     }
     if (key.contains('balasana') || key.contains('child')) {
-      return 'https://www.youtube.com/watch?v=0-z4K2kXRp0';
+      return 'https://youtube.com/shorts/YAmAET3Uomk?si=yVGkDZP2wls8N6pj';
     }
     if (key.contains('surya') || key.contains('sun salutation')) {
-      return 'https://www.youtube.com/watch?v=73sjECf7k4Y';
+      return 'https://youtube.com/shorts/8XLBpKnWYww?si=bAI7FO-ojKuBhAzl';
     }
     if (key.contains('warrior ii') || key.contains('warrior 2')) {
-      return 'https://www.youtube.com/watch?v=7vOFdGL7G0U';
+      return 'https://youtube.com/shorts/vxvLxyahNOA?si=JpJycbonaM7-whYC';
     }
     if (key.contains('plank')) {
-      return 'https://www.youtube.com/watch?v=pSHjTRCQxIw';
+      return 'https://youtube.com/shorts/E-PBfoIMc-0?si=hp1JdnqbsglNh6xR';
     }
     if (key.contains('chair pose')) {
-      return 'https://www.youtube.com/watch?v=6u2BTNEvWgQ';
+      return 'https://youtube.com/shorts/SStBS_CUYDw?si=uwTi5CrBFv7Cr1HP';
     }
     // Fallback general short yoga demo
     return 'https://www.youtube.com/watch?v=v7AYKMP6rOE';
