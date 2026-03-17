@@ -1261,14 +1261,14 @@ class _PoseDetailPageState extends State<PoseDetailPage>
     if (key.contains('vrikshasana') || key.contains('tree')) {
       return 'https://youtube.com/shorts/pfF98CIsd0E?si=L8-JQ10nXt9KoULo';
     }
-    if (key.contains('bhujangasana') || key.contains('cobra')) {
+    if (key.contains('bhujangasana') || key.contains('cobra pose')) {
       return 'https://youtube.com/shorts/qK7sEV08F_E?si=Wo5QwcsMa7RWP8NF';
     }
     if (key.contains('shavasana')) {
       // Dedicated short Shavasana / relaxation demo
       return 'https://youtube.com/shorts/9ZsTLblha9o?si=m-5qtAcDVfwDD1AL';
     }
-    if (key.contains('cat–cow') || key.contains('cat-cow')) {
+    if (key.contains('cat–cow') || key.contains('marjaryasana-Bitilasana (Cat-Cow)')) {
       return 'https://youtube.com/shorts/2of247Kt0tU?si=tbKFI7SgRgQmGoow';
     }
     if (key.contains('balasana') || key.contains('child')) {
@@ -1292,7 +1292,7 @@ class _PoseDetailPageState extends State<PoseDetailPage>
     if (key.contains('setu bandhasana')) {
       return 'https://youtube.com/shorts/fG6uUKbQbws?si=wI_5UZuXo-x_yY81';
     }   
-    if (key.contains('viparita karani')) {
+    if (key.contains('viparita karani') || key.contains('legs up the wall') {
       return 'https://youtube.com/shorts/qlhIBx-jY2M?si=RepORQnkkBO-NCAv';
     }   
     if (key.contains('setu bandhasana') || key.contains('bridge pose')) {
@@ -1304,14 +1304,20 @@ class _PoseDetailPageState extends State<PoseDetailPage>
     if (key.contains('sphinx pose')) {
       return 'https://youtube.com/shorts/vo1V3Q-PD78?si=kQ38g1_JeIC7xur2';
     }   
-    if (key.contains('child's pose with support')) {
+    if (key.contains('Child's pose with support') || key.contains('Child's pose') {
       return 'https://youtube.com/shorts/YAmAET3Uomk?si=SsJsDrdH68bsc0Zq';
     }   
     if (key.contains('supine twist') || key.contains('seated twist')) {
       return 'https://youtube.com/shorts/tAv9nInGsi4?si=GFC5uXu1zFLc-gvV';
     }   
-    if (key.contains('ankle rotations')) {
-      return 'https://youtube.com/shorts/CMEURrpiJnc?si=Qb6Wn1e1rX8UfrXk';
+    if (key.contains('forward fold')) {
+      return 'https://youtube.com/shorts/xM5eh_NrZzw?si=A1K-v9R_rtGh3h6z';
+    }   
+        if (key.contains('butterfly pose')) {
+      return 'https://youtube.com/shorts/fUGoCRCn_6A?si=Uso9_gpT1ZcLWrDn';
+    }   
+    if (key.contains('Adho Mukha Svanasana')) {
+      return 'https://youtube.com/shorts/mOr8GCo5rHU?si=rzeUlE-_wafrTJCc';
     }   
     // Fallback general short yoga demo
     return 'https://www.youtube.com/watch?v=v7AYKMP6rOE';
