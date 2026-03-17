@@ -1285,7 +1285,34 @@ class _PoseDetailPageState extends State<PoseDetailPage>
     }
     if (key.contains('chair pose')) {
       return 'https://youtube.com/shorts/SStBS_CUYDw?si=uwTi5CrBFv7Cr1HP';
-    }
+    }  
+    if (key.contains('seated forward bend')) {
+      return 'https://youtube.com/shorts/wVdOp3h1nog?si=VBVl_pAmY5hp7Wr7';
+    }  
+    if (key.contains('setu bandhasana')) {
+      return 'https://youtube.com/shorts/fG6uUKbQbws?si=wI_5UZuXo-x_yY81';
+    }   
+    if (key.contains('viparita karani')) {
+      return 'https://youtube.com/shorts/qlhIBx-jY2M?si=RepORQnkkBO-NCAv';
+    }   
+    if (key.contains('setu bandhasana') || key.contains('bridge pose')) {
+      return 'https://youtube.com/shorts/fG6uUKbQbws?si=wI_5UZuXo-x_yY81';
+    }   
+    if (key.contains('easy pose with breathing')) {
+      return 'https://youtube.com/shorts/m6Dys1buXlU?si=lATe2Wnv754_8HAY';
+    }   
+    if (key.contains('sphinx pose')) {
+      return 'https://youtube.com/shorts/vo1V3Q-PD78?si=kQ38g1_JeIC7xur2';
+    }   
+    if (key.contains('child's pose with support')) {
+      return 'https://youtube.com/shorts/YAmAET3Uomk?si=SsJsDrdH68bsc0Zq';
+    }   
+    if (key.contains('supine twist') || key.contains('seated twist')) {
+      return 'https://youtube.com/shorts/tAv9nInGsi4?si=GFC5uXu1zFLc-gvV';
+    }   
+    if (key.contains('ankle rotations')) {
+      return 'https://youtube.com/shorts/CMEURrpiJnc?si=Qb6Wn1e1rX8UfrXk';
+    }   
     // Fallback general short yoga demo
     return 'https://www.youtube.com/watch?v=v7AYKMP6rOE';
   }
